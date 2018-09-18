@@ -1,40 +1,83 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Pirana Recreation</title>
-    <!-- add meta tag for responsive web design -->
-    <!-- add links to css -->
-    <link rel="stylesheet" href="style.css">
-    <!-- add links to javascript -->
-    <script type="text/javascript" src="app.js"></script>
-  </head>
+<head>
+  <title>Pirana Recreation</title>
+  <!-- add meta tag for responsive web design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- add links to css -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-  <body>
-    <!-- here is the body of the website with all the containers -->
-    <!-- header will go here...consists of logo and nav links -->
-    <header class="site-header">
-      <section class="logo">Logo image here</section>
-      <nav class="navbar">
-        <ul>
-          <li><a href="about.html">About</a></li>
-          <li>links</li>
-          <li>links</li>
-        </ul>
-      </nav>
-    </header>
-    <!-- beginning of main content sections -->
-    <section id="welcome"></section>
+<body>
+  <!-- header area -->
+  <header class="site-header">
+    <a class="logo" href="/">
+      <span class="first-letter">P</span>irana
+    </a>
+
+    <nav class="navbar">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <input type="checkbox" id="color-scheme-checkbox" />
+
+    <div class="color-scheme-settings">
+      <div id="color-scheme-list" class="color-scheme-list">
+        <p>Choose your color scheme</p>
+        <div id="blue-1" class="color-scheme" style="background-color: #01BCD4;"></div>
+        <div id="orange" class="color-scheme" style="background-color: #FF5722;"></div>
+        <div id="blue-2" class="color-scheme" style="background-color: #04A9F4;"></div>
+        <div id="green-1" class="color-scheme" style="background-color: #8BC24A;"></div>
+        <div id="purple" class="color-scheme" style="background-color: #673AB7;"></div>
+        <div id="green-2" class="color-scheme" style="background-color: #1ABC9C;"></div>
+        <div id="brown" class="color-scheme" style="background-color: #795548;"></div>
+        <div id="red" class="color-scheme" style="background-color: #DF2217;"></div>
+      </div>
+
+      <label id="color-scheme-btn" for="color-scheme-checkbox">
+        <i class="fas fa-cog"></i>
+      </label>
+    </div>
+  </header>
+
+  <!-- content sections -->
+  <main>
+    <section id="home">
+      <div class="home-overlay">
+        <div class="home-content">
+          <h2 class="hello">Hi I'm <span class="name">Johnathan</span> Doe</h2>
+          <p class="description">Professional UI/UX Developer</p>
+          <a id="contact-btn" href="#contact">
+            <i class="fas fa-envelope"></i> Contact Me
+          </a>
+        </div>
+      </div>
+    </section>
+
     <section id="about"></section>
     <section id="services"></section>
-    <section id="work"></section>
+    <section id="portfolio"></section>
     <section id="testimonials"></section>
     <section id="call-to-action"></section>
-    <section id="latest-news"></section>
+    <section id="blog"></section>
     <section id="contact"></section>
-    <!-- start of footer -->
-    <footer class="site-footer">
-      <div class="copyright"></div>
-      <div class="social-links"></div>
-    </footer>
-  </body>
+  </main>
+
+  <!-- start of footer -->
+  <footer class="site-footer">
+    <div class="copyright"></div>
+    <div class="social-links"></div>
+  </footer>
+
+  <!-- add links to javascript -->
+  <script type="text/javascript" src="app.js"></script>
+</body>
 </html>
