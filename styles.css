@@ -246,3 +246,148 @@ header .color-scheme-settings #color-scheme-btn {
   color: #000 !important;
 }
 /*# sourceMappingURL=styles.css.map */
+
+/*content sections*/
+
+#about {
+    max-width: 100%;
+    height: auto;
+    padding: 100px 0;
+    padding-bottom: 100px;
+}
+
+.container {
+    max-width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about-s1 {
+    float: left;
+    width: 33.3%;
+    height: auto;
+}
+
+.about-s1 img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.about-s2 {
+    float: right;
+    width: 66.6%;
+    height: auto;
+    padding-top: 10px;
+}
+
+.s2-col {
+    width: 100%;
+    height: auto;
+    padding-left: 15px;
+}
+
+.s2-col h2{
+    font-size: 30px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #777;
+}
+
+.s2-col-j {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #E02217;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-family: 'Clicker Script', cursive;
+    color: #fff !important;
+    font-weight: 700;
+}
+
+
+.s2-col h4 {
+    color: #caa669;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 18px;
+    margin: 0 0 10px;
+    padding-top: 15px;
+}
+
+.s2-col p {
+    color: #444;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+}
+
+.info {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.s2-col1 {
+   float: left;
+}
+
+.s2-col2 {
+  float: right;
+}
+
+.s2-col3 {
+    clear: both;
+}
+
+.s2-col3 ul li {
+    display: inline-block;
+}
+
+.info ul li .info-title {
+    min-width: 65px;
+    font-weight: bold;
+    color: #666;
+}
+
+.info ul li p {
+    display: inline-block;
+}
+
+.info p {
+    font-size: 15px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: #a7a7a7;
+    line-height: 1.6;
+    margin: 0 0 10px;
+}
+
+.social-media {
+        margin-right: 10px;
+}
+
+
+.social-media a {
+    color: #666;
+    padding: 3px 10px;
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 5px;
+    transition: all .4s ease-in-out;
+    visibility: visible;
+}
+
+.social-media a:hover {
+    background-color: red;
+    color: aliceblue;
+    border-color: red;
+}
