@@ -391,3 +391,14 @@ p {
     color: aliceblue;
     border-color: red;
 }
+
+.reversed a {
+    background-color: red;
+    border: 1px solid red;
+    color: aliceblue;
+}
+
+.reversed a:hover {
+    color: grey;
+    transition: all .4s ease-in-out;
+}
